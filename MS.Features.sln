@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Features", "MS.Features\MS.Features.csproj", "{B3DDC43A-ED51-495F-9EC6-C1BA9E5A3BB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Features.Web", "MS.Features.Web\MS.Features.Web.csproj", "{F8C4EDAC-4E7A-4A13-A093-DE5C6179C12F}"
@@ -20,9 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BB8CE5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B73895D7-F942-48A3-877D-15784E466AF1}"
 	ProjectSection(SolutionItems) = preProject
-		PrepareBuild.proj = PrepareBuild.proj
 		MS.Features\MS.Features.nuspec = MS.Features\MS.Features.nuspec
 		MS.Features.Web\MS.Features.Web.nuspec = MS.Features.Web\MS.Features.Web.nuspec
+		PrepareBuild.proj = PrepareBuild.proj
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
