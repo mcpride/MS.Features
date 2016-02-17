@@ -1,0 +1,54 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Features", "MS.Features\MS.Features.csproj", "{B3DDC43A-ED51-495F-9EC6-C1BA9E5A3BB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Features.Web", "MS.Features.Web\MS.Features.Web.csproj", "{F8C4EDAC-4E7A-4A13-A093-DE5C6179C12F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EE119A27-FF17-45A8-9BA6-D6AF7B7299B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{7C05795F-955C-486A-AA8F-521A908C4E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Features.UnitTests", "Tests\Unit\MS.Features.UnitTests\MS.Features.UnitTests.csproj", "{AF224F3E-0A37-494C-8C88-AEDE46B5C903}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BB8CE552-E89C-4428-877B-E5A12B251D26}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B73895D7-F942-48A3-877D-15784E466AF1}"
+	ProjectSection(SolutionItems) = preProject
+		PrepareBuild.proj = PrepareBuild.proj
+		MS.Features\MS.Features.nuspec = MS.Features\MS.Features.nuspec
+		MS.Features.Web\MS.Features.Web.nuspec = MS.Features.Web\MS.Features.Web.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3DDC43A-ED51-495F-9EC6-C1BA9E5A3BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DDC43A-ED51-495F-9EC6-C1BA9E5A3BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DDC43A-ED51-495F-9EC6-C1BA9E5A3BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DDC43A-ED51-495F-9EC6-C1BA9E5A3BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C4EDAC-4E7A-4A13-A093-DE5C6179C12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C4EDAC-4E7A-4A13-A093-DE5C6179C12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C4EDAC-4E7A-4A13-A093-DE5C6179C12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C4EDAC-4E7A-4A13-A093-DE5C6179C12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF224F3E-0A37-494C-8C88-AEDE46B5C903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF224F3E-0A37-494C-8C88-AEDE46B5C903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF224F3E-0A37-494C-8C88-AEDE46B5C903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF224F3E-0A37-494C-8C88-AEDE46B5C903}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C05795F-955C-486A-AA8F-521A908C4E33} = {EE119A27-FF17-45A8-9BA6-D6AF7B7299B4}
+		{AF224F3E-0A37-494C-8C88-AEDE46B5C903} = {7C05795F-955C-486A-AA8F-521A908C4E33}
+	EndGlobalSection
+EndGlobal
